@@ -290,8 +290,8 @@ ExternalProject_Add(grpc
 #
 ExternalProject_Add(libevent
   PREFIX libevent
-  GIT_REPOSITORY "https://github.com/libevent/libevent.git"
-  GIT_TAG "release-2.1.8-stable"
+  GIT_REPOSITORY "https://github.com/achraf-mer/libevent.git"
+  GIT_TAG "2.1.8-patch"
   SOURCE_DIR "${CMAKE_CURRENT_BINARY_DIR}/libevent/src/libevent"
   EXCLUDE_FROM_ALL ON
   CMAKE_CACHE_ARGS
